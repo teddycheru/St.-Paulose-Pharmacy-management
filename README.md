@@ -1,6 +1,7 @@
 # Pharmacy management
 
 -----------CONFIGURATION-----------
+
 Create a Database called 'file-management' then create:
 1. # table name 'admin' with columns
     'id' int() Auto-increament
@@ -30,7 +31,9 @@ Create a Database called 'file-management' then create:
      'username' Varchar(255)
      'password' Varchar(255)
 --------------------------------------------------------
----------------USAGE---------------
+
+------------------------USAGE---------------------------
+
 First Run ownreregisterpuo.php and then register a super admin or simply an owner who is going to have a privilege to
 add Pharmacists that adminster drugs and customers.
 Next open welcome.php or login1.php to log into the homepage of the pharmacy management system by putting Pharmacist admin credentials
