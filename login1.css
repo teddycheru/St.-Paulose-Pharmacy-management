@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #e4eef0;;
+    font-family: 'Poppins', sans-serif;
+
+}
+.login
+{
+    width: 350px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    padding: 80px;
+    background-color:#20dad8;
+    ;
+    
+    border-radius: 15px;
+    height:450;
+}
+h1
+{
+    text-align: center;
+    color: #12090c;
+    font-weight: bolder;
+    font-style: 'Poppins', sans-serif;
+    
+    
+}
+.labels
+{
+color:#12445f;
+font-style: 'Poppins', sans-serif;
+}
+.input
+{   
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 15px;  
+    padding-left: 8px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+.input::placeholder
+{
+    text-align: center;
+    color:#122a48;
+}
+.input:focus
+{
+    outline: none; 
+    /* transform: scale(1.01); */
+    /* border: #20dad8 solid 1.5px; */
+}
+.log
+{
+    width: 280px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: white; 
+    margin-left: 15px;
+    background-color: #044ec8;
+}
+.sub
+{
+   color: #122236;
+}
+sub:focus
+{
+    cursor: pointer;
+}
+.last
+{
+ font-size: small;
+ color: #122236;
+ font-style: 'Poppins', sans-serif;
+ padding-left: 250px;
+ 
+}
+/* the below css if for adminregister only */
+.flex-container
+{
+    display: flex;
+}
+.admin1
+{
+    width: 350px;
+    overflow: hidden;
+    padding: 80px;
+    background-color:#20dad8;
+    margin-left: 5rem;
+    margin-top: 40px;
+    
+    border-radius: 15px;
+    height:300px
+}
+.admin2
+{
+    margin-left: 20rem;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 350px;
+    overflow: hidden;
+    padding: 80px;
+    background-color:#20dad8;
+    border-radius: 15px;
+    height:300px
+}
+#input_admin
+{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 15px;  
+    padding-left: 8px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+#input_admin:focus
+{
+    outline: none;
+    border: none;  
+}
+.reg
+{
+    margin-top: -5px;
+}
+#log_admin1
+{
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: white; 
+    margin-left: 15px;
+    background-color: #044ec8; 
+    cursor: pointer;
+}
+
+#log_admin2
+{
+    width: 280px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: white; 
+    margin-left: 15px;
+    background-color: #044ec8; 
+    cursor: pointer; 
+}
